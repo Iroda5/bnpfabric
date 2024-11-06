@@ -1,0 +1,111 @@
+.yuz{
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    @media(max-width: 719px){
+       padding: 10px 10px;
+     }
+    &__conta{
+        padding: 40px 40px;
+        background-color:rgb(63, 81, 116);
+        width: 1450px;
+        min-height: 300px;
+        border-radius: 20px;
+        display: flex;
+        gap: 80px;
+        justify-content: space-between;
+        align-items: center ;
+        box-shadow: 4px 4px 8px 0px rgba(183, 30, 30, 0.65);
+        @media(max-width: 720px){
+            width: 350px;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            padding: 5px 5px;
+            gap: 5px;
+            align-items: start;
+         }
+    }
+    &__pic{
+        position: absolute;
+        top: 900px;
+        left: 230px;
+        width: 900px;
+        @media(max-width:1300px){
+            width: 700px;
+            left: 190px;
+        }
+        @media(max-width:1279px){
+            width: 500px;
+            top:1350px;
+        }
+        @media(max-width: 720px){
+           width: 350px;
+           top: 700px;
+           left: 20px;
+         }
+    }
+    &__foiz{
+        font-size: 100px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        @media(max-width:1190px){
+            font-size: 50px;
+        }
+        @media(max-width: 667px){
+           font-size: 30px;
+           text-align:start;
+         }
+    }
+    &__sif{
+        color: white;
+        font-size: 20px;
+        @media(max-width: 719px){
+           font-size: 15px;
+         }
+      
+    }
+    &__bux{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        @media(max-width: 1190px){
+            width: 350px;
+        }
+    }
+    &__tab{
+        font-size: 35px;
+        @media(max-width: 719px){
+           font-size: 18px;
+         }
+    }
+    &__kop{
+        font-size: 20px;
+        @media(max-width: 719px){
+           font-size: 17px;
+         }
+
+    }
+    &__btn{
+        width: 120px;
+        padding: 14px 22px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: none;
+        color:rgb(51, 68, 103) ;
+        font-weight: 600;
+    }
+    &__mat{
+        @media(max-width: 667px){
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+         }
+    }
+}

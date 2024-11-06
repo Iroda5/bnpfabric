@@ -1,0 +1,81 @@
+.contain{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media(max-width:1040px){
+        display: flex;
+       
+    }
+    @media(max-width:908px){
+        display: flex;   
+    }
+    &__rasm{
+        background-color: rgb(80, 76, 76);
+        width: 1450px;
+        min-height: 700px;
+        border-radius: 20px;
+        display: flex;
+        // align-items: center;
+        justify-content: end;
+        @media(max-width:1040px){
+            width: 700px;
+        }
+        @media(max-width: 719px){
+           width: 350px;
+           min-height: 200px;
+        }
+    }
+    &__pic{
+        position:absolute;
+        right: 310px;
+        @media(max-width:1300px){
+            width: 500px;
+        }
+        @media(max-width: 600px){
+            width: 300px;
+            right: 100px;
+        }
+    }
+    &__tekst{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        font-family:"Rethink Sans", sans-serif;
+        @media(max-width: 1300px){
+            display: flex;
+            align-items: center;
+            justify-content:end;
+        }
+        @media(max-width:908px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: right;
+      
+        }
+    }
+    &__h3{
+        font-size: 50px;
+        @media(max-width:600px){
+            font-size: 20px;
+        }
+    }
+    &__h2{
+        font-size: 90px;
+        @media(max-width:600px){
+            font-size: 30px;
+        }
+    
+     }
+    &__h1{
+        font-size: 190px;
+        @media(max-width:908px){
+          font-size: 80px;  
+        }
+        @media(max-width:600px){
+            font-size: 35px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.about{
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px 30px;
+    &__div{
+        display: flex;
+        gap: 10px;
+        @media(max-width:1280px){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__one{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;    
+    }
+    &__h1{
+        font-size: 50px;
+    }
+   &__p{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 5%;
+    word-spacing: 5px;
+    color: rgb(86, 82, 82);
+   }
+}

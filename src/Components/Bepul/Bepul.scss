@@ -1,0 +1,30 @@
+.box{
+    margin: 0 auto;
+    padding: 30px 30px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 20px;
+    @media(max-width:1195px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__div{
+        display: flex;
+        gap: 16px;  
+    }
+   &__h5{
+    font-size: 18px;
+   }
+   &__col{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   &__p{
+    font-size: 17px;
+    color: gray;
+   }
+}

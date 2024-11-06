@@ -1,0 +1,121 @@
+.contact{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    button{
+        background-color: red;
+        border: none;
+        color: white;
+        width: 170px;
+        padding: 15px 30px;
+        border-radius: 20px;
+        &:hover{
+            background-color: black;
+        }
+    }
+    &__div{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-around;
+        @media(max-width:1280px){
+            display: flex;
+            flex-direction: column;
+           }
+    }
+    &__aloqa{
+        font-size: 40px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align:left;
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+    &__loc{
+        width: 700px;
+    }
+    &__info{
+        display: flex;
+        justify-content: space-around;
+        // gap: 50px;
+        padding: 30px 30px;
+        @media(max-width:1068px){
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__two{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        padding: 30px 30px;
+        @media(max-width:1280px){
+            display: flex;
+            flex-direction: column;
+           }
+    }
+    &__mal{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 11px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    &__input{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        @media(max-width:850px){
+            width: 400px;
+            }
+
+        & > input{
+            border: none;
+            color: gray;
+            background-color:rgb(239, 229, 229);
+            padding: 20px 200px;
+            border-radius: 20px;
+            @media(max-width:850px){
+            padding: 10px, 100px;
+            }
+        }
+    }
+    &__inputErr{
+        border: 1px red solid;
+    }
+    &__err{
+        color: red;
+    }
+    &__pochta{
+        width: 30px;
+    }
+   
+    &__diva{
+       display: flex;
+       gap: 10px;
+       flex-direction: column;
+       & > textarea{
+        padding: 50px 200px;
+        border-radius: 20px;
+        color: gray;
+        background-color:rgb(228, 217, 217); 
+        border: none;
+       }
+    }
+    &__rasm{
+        @media(max-width:850px){
+            width: 400px;
+            }
+    }
+}
+.text{
+    padding: 60px 200px;
+    border-radius: 20px;
+    background-color:rgb(228, 217, 217);  
+    border: none;
+    @media(max-width:850px){
+        width: 400px;
+        }
+}

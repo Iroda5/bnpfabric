@@ -1,0 +1,17 @@
+.qora{
+    @media(max-width: 720px){
+        padding: 10px 40px;
+    }
+    &__one{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    min-height: 100px;
+    text-align:center;
+    padding: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    @media(max-width: 720px){
+        width: 300px;
+    }
+}
+}
