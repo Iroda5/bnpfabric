@@ -3,8 +3,6 @@ import './App.scss'
 import Bepul from './Components/Bepul/Bepul'
 import Qish from './Components/Qish/Qish'
 import Yuz from './Components/Yuz/Yuz'
-import AOS from "Aos";
-import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Yuzfoiz from "./Components/Yuzfoiz/Yuzfoiz"
 import Kuz from './Components/Kuz/Kuz';
@@ -12,14 +10,17 @@ import Yashil from './Components/Yashil/Yashil';
 import Yoz from './Components/Yoz/Yoz';
 import Yangiliklar from './Components/Yangiliklar/Yangiliklar';
 import { useTranslation } from 'react-i18next';
-
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init();
-    AOS.refresh()
-  }, []);
+    Aos.init({
+        duration: 900,
+        offset: 50,
+        easing: 'ease-in-out', 
+    });
+}, []);
 
   const {t} = useTranslation()
 

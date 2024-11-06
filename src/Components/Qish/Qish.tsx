@@ -32,7 +32,7 @@ const Qish = () => {
           {
             beds.map( bed => (
               <div >
-                <img onClick={() => bedsHandler(bed.id)} className="qish__bed" key={bed.id} className="qish__image" src={bed.img} alt="" />
+                <img onClick={() => bedsHandler(bed.id)} className="qish__bed qish__image" key={bed.id} src={bed.img} alt="" />
                 <h2 className="qish__name">{bed.name}</h2>
               </div>
             ))
