@@ -3,7 +3,7 @@ import './App.scss'
 import Bepul from './Components/Bepul/Bepul'
 import Qish from './Components/Qish/Qish'
 import Yuz from './Components/Yuz/Yuz'
-import AOS from "aos";
+import AOS from "Aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Yuzfoiz from "./Components/Yuzfoiz/Yuzfoiz"
